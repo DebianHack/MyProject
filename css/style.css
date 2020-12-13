@@ -1,0 +1,134 @@
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#game {
+	background: url(1111.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	top: 0px;
+	overflow: hidden;
+}
+
+#player {
+	height: 150px;
+	position: absolute;
+	top: 225px;
+	left: 1200px;
+	width: 168px;
+	background: url(player_1.png);
+    background-size: 168px 168px; 
+}
+
+
+.enemy {
+	position: absolute;
+	top: calc(50% - 85px);
+	left: -100px;
+	width: 150px;
+	height: 150px;
+	padding: 0;
+	background: url("enemy.gif") no-repeat;
+	background-size: 150px 150px;  
+}
+
+.boom {
+	background: url(boom.gif);
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+
+#stars {
+	font-size: 40px;
+	color: red;
+	font-weight: bold;
+    position: absolute;
+	top: 11px; 
+    left: 19px;
+}
+
+#lifes {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    
+}
+
+#lifes span {
+    display: block;
+	margin: 10px;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url(life1.gif);
+	background-size: cover;
+
+}
+
+.bullet {
+	width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20%;
+    left: 1200px;
+    background: url("ball3.gif") no-repeat;
+    background-size: 50px 50px;
+}
+
+
+#start-block {
+    width: 100%;
+	height: 100%;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}	
+
+#startknopka {
+    margin: 150px auto;
+    display: block;
+    padding: 70px 175px;
+    font-size: 50px;
+}
+
+  
+#infoblock h2 {
+    top: 0px;
+    left: 550px;
+    position: relative;
+    float: left;
+    color: white;
+    font-size: 2em;
+}
+
+
+#timer {	
+    top: 1px;
+    left: 120px;
+    position: absolute;
+    float: left;
+    color: white;
+    font-size: 1em;
+}
+
+#konec-igra {
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background: blue;
+}
